@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #14141f;
+  /*background-color: #1e1e2e;*/
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+header.app-header {
+  color: white;
+  text-align: left;
+  margin-top: 0 !important;
+  padding: 0.5rem 1rem;
+}
+
+header.app-header button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+header.app-header span.subtitle {
+  /*display: inline-block;*/
+  font-size: 0.8rem;
+}
+header.app-header span.title {
+  display: block;
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.app-body > p {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  max-width: 1000px;
+}
+
+.app-body > h3 {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.app-body > button.return-route {
+  height: 2rem;
+  max-height: 2rem;
+  display: inline-block;
+}
+
+
+
+.map-container {
+  border: solid 2px white;
+  margin: 0 1rem;
+  height: 400px;
+}
+
+.map-container #leaflet-map-element {
+  height:  100% !important;
+}
+
+.route-entry-form {
+  margin: 10px;
+}
+
+.route-entry-form  button{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.route-entry-form div.MuiTextField-root {
+  margin: 0 5px;
+} 
+
+.route-entry-form input.MuiInputBase-input {
+  background-color: #ccc !important;
+}
+
+
+.viz-container {
+  padding: 0 0 1rem 1rem;
+  text-align: left;
+  display: flex;
+}
+
+.viz-container > .viz-text-container {
+  text-align: center;
+  width: 20rem;
+}
+
+.route-safety-scores {
+  width: 20rem;
+}
+
+.viz-container .viz-graph-container {
+  flex: 1;
+  margin: 0 1rem 1rem 1rem ;
+  text-align: center;
+  overflow: scroll;
+}
+
+.App.App-Mobile .viz-container {
+  flex-direction: column;
+}
+
+.App.App-Mobile .viz-container .viz-text-container {
+  margin: 0 auto;
+}
+
+.App.App-Mobile header.app-header > button {
+  position: inherit; 
+  display: block;
+  margin:  1rem auto 0 auto;
+}
+
+.viz-container .viz-graph-container .MuiTabs-scroller {
+  height: 2rem;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.viz-container .viz-graph-container .MuiTabs-flexContainer {
+  height: 2rem;
+}
+
+.viz-container .viz-graph-container button.MuiTab-root {
+  padding: 0.5rem;
+  height: 2rem;
+  min-height: 2rem;
+}
+
+.viz-text-info > button.MuiButton-root {
+  color:  white;
+}
+
+button.MuiButton-root.active {
+  font-weight: bold;
+  background-color: #1976d2;
+  color: white;
+}
+
+.app-body .viz-container div.MuiPaper-root.viz-text-info {
+  height: fit-content;
+  width: 20rem;
+  min-width: 20rem;
+  margin-bottom: 1rem;
+}
+
+div.viz-text-container > div.MuiPaper-root.viz-text-info > button {
+  width: 100%;
+}
+
+.MuiTableCell-root  {
+  color:  white !important;
+}
+
+.MuiTableCell-root span.prefix {
+  font-size: 0.6rem;
+  font-style: italic;
+}
+
+.bold-row .MuiTableCell-root {
+  font-weight: bold;
+  font-size:  1.2rem;
+}
+
+.MuiSvgIcon-root.tooltip-icon {
+  font-size: 0.9rem;
+  margin: 0 0 0 3px;
+  fill: grey;
+  display: inline-block;
+}
+
+.MuiSvgIcon-root.tooltip-icon.graph-tooltip {
+  display: block;
+  float: right;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+
+div.MuiPaper-root {
+  background: #26283c;
+  color:  white;
+  /*background: linear-gradient(179deg, rgba(74,77,108,1) 0%, rgba(54,57,82,1) 8%, rgba(38,40,60,1) 18%);*/
+}
+
+div.MuiTabs-fixed button {
+  color: white;
+}

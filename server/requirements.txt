@@ -1,0 +1,8 @@
+Flask==2.0.2
+gunicorn==19.7.1
+psycopg2-binary
+pandas
+requests
+flask-cors
+suntime
+timezonefinder==5.2.0
