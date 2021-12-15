@@ -11,7 +11,7 @@ from calculations import calculateSafetyScore, start_coord_one_call_API
 # CONFIG VALUES
 columns = "*" # String describing which columns we want from every accident
 route_check_radius = '0.0001' # units are lat/lon
-connectCmd = f'dbname=cse6242 user=bbor host=127.0.0.1' #default
+connectCmd = f'dbname=**** user=*** host=***' #default
 
 if (os.environ['DATABASE_URL']):
 	res = urlparse(os.environ['DATABASE_URL'])

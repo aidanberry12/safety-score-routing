@@ -134,7 +134,7 @@ def copy_from_dataFile_StringIO(conn, datafrm, table):
         cursor.close()
 
 if  __name__ == "__main__":
-    conn = connect(user='bbor',password='bborrobb', host='137.184.78.199', database='cse6242', port='31802')
+    conn = connect(user='***',password='***', host='***', database='***', port='***')
     # We set autocommit=True so every command we execute will produce results immediately.
     conn.autocommit = True
     cursor = conn.cursor()

@@ -138,7 +138,7 @@ def calculateSafetyScore(route, accidents, currentConditions, route_distance, op
 
 
 # openweathermap API key
-api_key = "b1dc76cffbcde8e04b16658f87420e91"
+api_key = "***"
 # unit conversions
 hpa_to_inhg = 0.02952998
 m_to_mi = 0.000621371
