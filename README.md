@@ -4,7 +4,8 @@
 
 _Aidan Berry, Chris Kim, Juan Hurtado, Meena Chockalingam, Robb Doering, Steven Maloney_ 
 
-**NOTE:** This file must be translated to README.txt before final submission.
+![image](https://user-images.githubusercontent.com/55678487/146124743-0e242f78-b6f8-4279-9ad8-bdc892b6ef0e.png)
+
 
 ## 1. Description
 _"Describe the package in a few paragraphs."_
@@ -124,5 +125,4 @@ Begin by installing the code, and navigate in your command line to the root dire
 - Cleaning of the data was the same as used for our project with the addition of limiting the data to only accidents that happened inside of Colorado's borders.
 - `CO_Sample_hotspots.json` data comes from https://www.codot.gov/safety/traffic-safety/safety-programs-data/crash-data
 - `Full_Data_hotspots.json` comes from the Kaggle dataset https://www.kaggle.com/sobhanmoosavi/us-accidents which we use for our project. For this experiment, only the accidents that occured in Colorado were used.
-## 4. Demo Video
-[TODO]
+
