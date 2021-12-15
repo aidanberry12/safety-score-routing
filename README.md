@@ -13,6 +13,16 @@ The app can be accessed on the web via the link here: https://safetyrouter.robbw
 
 ![image](https://user-images.githubusercontent.com/55678487/146124743-0e242f78-b6f8-4279-9ad8-bdc892b6ef0e.png)
 
+![image](https://user-images.githubusercontent.com/55678487/146126260-dc80c822-2aed-49ac-8635-2aea037144ba.png)
+![image](https://user-images.githubusercontent.com/55678487/146126317-33f4ef39-b7c7-4c06-a185-1eb4af21bb93.png)
+![image](https://user-images.githubusercontent.com/55678487/146126369-286e2499-4a7d-408a-b82d-a089301785ca.png)
+![image](https://user-images.githubusercontent.com/55678487/146126408-1db48442-2310-4b7d-98a0-2976dab4ca4c.png)
+![image](https://user-images.githubusercontent.com/55678487/146126489-1e53a969-5e9d-4754-b084-1d1885acc64c.png)
+
+
+
+
+
 
 ## 1. Description
 
