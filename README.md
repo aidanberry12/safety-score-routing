@@ -1,9 +1,5 @@
 # Driver Safety Routing and Accident Transparency
 
-**CSE6242 Project Team #175**
-
-_Aidan Berry, Chris Kim, Juan Hurtado, Meena Chockalingam, Robb Doering, Steven Maloney_ 
-
 ## Overview
 
 Car accidents are a leading cause of death in the US and many navigation tools today (Google Maps, Apple Maps, Waze, etc.) do not offer any insight into the safety of a route prior to departing. The goal of this project is to provide transparency into the safety of driving routes by utilizing historical accident data, historical weather data, as well as real time temporal and weather data to score potential routes. We have created a web application with a map that provides a safety score (on a scale of 0 to  10, from 0 being unsafe to 10 being completely safe) of all generated Google Maps API routes (including alternate routes) between a given pair of start and destination points. This analysis is based on historical accident and current weather data so that the drivers can make an informed decision on which route to take or to avoid the trip altogether at that particular time. The historical accident data such as frequency, severity, and weather conditions of accidents is made available via line and bar graphs to inform the user about the historical accidents and historical weather information in the given route. Accident hotspots derived from a DBSCAN geospatial clustering algorithm are also displayed on the map and users can drill down into these clusters to look at historical accident behavior in these areas as well as distributions of common accident factors.
